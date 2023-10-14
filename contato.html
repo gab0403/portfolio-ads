@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+    <header id="cabecalho">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobreMim.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Contato:</h2>
+        <!-- 'form' define um formulário que envia informações para um servidor. -->
+          <form action="" method="">
+            <!-- 'label' é uma etiqueta para o campo de entrada. -->
+              <label for="nome">Nome:</label>
+              <!-- 'input' cria um campo de entrada de texto. -->
+              <input type="text" id="nome" name="nome" required><br><br>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+          
+              <label for="mensagem">Mensagem:</label><br>
+              <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea>
+              <br><br>
+              <input type="submit" value="Enviar">
+          </form>
+      </section>
+
+      <section>
+        <!-- 'a' é um link que se abre em uma nova janela ou guia do navegador. -->
+          <a href="https://www.linkedin.com/in/gabrielarodrigues-dev/" target="_blank">
+            <!-- 'i' é usado para ícones, neste caso, um ícone do LinkedIn. -->
+            <i class="fab fa-linkedin"></i> 
+        </a>
+        
+        <a href="https://github.com/gab0403" target="_blank">
+            <i class="fab fa-github"></i> 
+        </a>
+      </section>
+    
+</body>
+</html>

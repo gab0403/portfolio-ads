@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 75%, rgba(252,176,69,1) 100%); /*Definirá o fundo da página como um gradiente */
+}
+
+/* Estilo para o cabeçalho */
+#cabecalho {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px 0; /* Espaçamento interno no cabeçalho */
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+/* Estilo para a navegação */
+#cabecalho nav ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+}
+
+#cabecalho nav li {
+    display: inline; /* Colocar os itens da lista em linha */
+    margin-right: 20px; /* Espaço entre os itens da lista */
+}
+
+#cabecalho nav a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+}
+
+#cabecalho nav a:hover {
+    border-bottom: 2px solid #ffc8dd; /* Efeito de sublinhado rosa ao passar o mouse */
+}
+
+/* Estilo para o título */
+#titulo {
+    font-size: 90px; /* Tamanho da fonte do título */
+    position: absolute;
+    top: 25%; /* Centraliza verticalmente */
+    left: 15%; /* Alinha à esquerda */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    color: white;
+}
+
+#titulo1 {
+    font-size: 70px; /* Tamanho da fonte do título */
+    position: absolute;
+    top: 45%; /* Centraliza verticalmente */
+    left: 30%; /* Alinha à esquerda */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    color: white;
+}
+
+#titulo2 {
+    font-size: 50px; /* Tamanho da fonte do título */
+    position: absolute;
+    top: 60%; /* Centraliza verticalmente */
+    left: 15%; /* Alinha à esquerda */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    color: white;
+}
+
+#minha_foto {
+    border-radius: 50%;
+    display: block;
+    margin-left: 65%;
+    margin-right: 0; /* Defina a margem direita como 0 para alinhar à direita */
+    width: 374px;
+    margin-top: 5%;
+}
+
+#subtitulo_sobre {
+    position: absolute;
+    top: 20%;
+    left: 20%; /* Ou o valor que desejar para ajustar a posição horizontal */
+    transform: translateY(-50%);
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    color: white;
+}
+
+
+#paragrafo_sobre {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+    position: absolute;
+    top: 60%; 
+    left: 35px;
+    width: 50%;
+    transform: translateY(-50%);
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas, ajuste conforme necessário */
+    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    color: white;
+    text-align: justify; /* Texto justificado */
+}
+
+#img_sobre_mim {
+    width: 40%; /* Ajuste a largura conforme necessário */
+    border-radius: 50%;
+    display: block;
+    margin-left: 60%;
+    margin-right: 0; /* Defina a margem direita como 0 para alinhar à direita */
+    width: 474px;
+    margin-top: 5%;
+}
+
+#subtitulo_forma {
+    position: absolute;
+    top: 20%;
+    left: 20%; 
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-family: "Arial", sans-serif;
+    color: white;
+}
+
+#paragrafo_forma {
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 5);
+    position: absolute;
+    top: 25%; 
+    left: 35px;
+    width: 50%;
+    padding: 15px;
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Espaçamento entre linhas, ajuste conforme necessário */
+    font-family: "Arial", sans-serif; 
+    color: white;
+    text-align: justify; /* Texto justificado */
+}
+
+/* projetos */
+#projetos {
+
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); /* Sombra */
+    padding: 20px; /* Espaçamento interno para afastar o conteúdo da borda */
+    margin-left: 60%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+#tituloprojetos {
+    text-align: justify;
+    color: white;
+}
+
+#projetos ul {
+    list-style-type: none;
+    padding: 0; /* Opcional para remover o espaço entre os itens da lista */
+}
+
+
+#projetos a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.5;
+}
+
+
+
+
+/* Estilo para a seção de Contato */
+section {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilo para o título "Contato" */
+h2 {
+    color: white;
+}
+
+/* Estilo para o rótulo do campo */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+/* Estilo para os campos de entrada de texto e área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); /* Sombra */
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para o botão de envio no hover (ao passar o mouse) */
+input[type="submit"]:hover {
+    background-color: #ffc8dd;
+    color: black;
+}
+
+.fab {
+    font-size: 24px; /* Tamanho do ícone */
+    color: black; /* Cor do ícone */
+}
+
+
+
+#rodape {
+    width: 100%;
+    position: fixed; /* Torna o rodapé fixo na parte inferior */
+    bottom: 0; /* Coloca o rodapé no fundo da janela */
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%); /*Definirá o fundo da página como um gradiente */
+}
+
+
+
+
+
