@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="shortcut icon" href="./public/images/icons8-laptop-color-32.png" type="image/x-icon">
 </head>
-
 <!-- O elemento 'body' é o contêiner principal que envolve todo o conteúdo da página. -->
 <body>
     <!-- O 'header' é a seção de cabeçalho que geralmente contém a navegação do site. -->
@@ -17,9 +16,19 @@
             <ul>
                 <!-- 'li' representa um item de lista. -->
                 <li><a href="index.html">Início</a></li>
-                <li><a href="sobreMim.html">Sobre mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="public/sobreMim.html">Sobre mim</a></li>
+                <li><a href="public/formacao.html">Formação</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Projetos</button>
+                        <div class="dropdown-content">
+                            <a href="https://todo-list-navy-ten.vercel.app/" target="_blank" class="link-projetos">Lista de tarefas</a>
+                            <a href="https://trybe-warts-seven.vercel.app" target="_blank">Formulário</a>
+                            <a href="https://app-tunes-nu.vercel.app" target="_blank">App de música</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="public/contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -32,13 +41,11 @@
         <h2 id="titulo2">Portfólio</h2>
     </section>
     <!-- 'img' é usada para incorporar uma imagem na página. -->
-    <img id="minha_foto" src="images/gabi.jpeg" alt="Descrição da imagem">
+    <img id="minha_foto" src="public/images/gabi.jpeg" alt="Gabriela está sorrindo, usa um vestido azul com decote em círculo, seu cabelo está parcialmente preso e de lado.">
     <!-- 'footer' é a seção de rodapé que geralmente contém informações de direitos autorais. -->
     <footer id="rodape">
         <!-- 'h3' é um cabeçalho de nível 3 usado no rodapé. -->
         <h3>Gabriela Rodrigues, 2023.</h3>
     </footer>
 </body>
-
-
 </html>

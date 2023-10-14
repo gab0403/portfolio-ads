@@ -45,7 +45,7 @@ body {
     top: 25%; /* Centraliza verticalmente */
     left: 15%; /* Alinha à esquerda */
     transform: translateY(-50%); /* Centraliza verticalmente */
-    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    font-family: "Arial", sans-serif; 
     color: white;
 }
 
@@ -55,7 +55,7 @@ body {
     top: 45%; /* Centraliza verticalmente */
     left: 30%; /* Alinha à esquerda */
     transform: translateY(-50%); /* Centraliza verticalmente */
-    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    font-family: "Arial", sans-serif; 
     color: white;
 }
 
@@ -65,7 +65,7 @@ body {
     top: 60%; /* Centraliza verticalmente */
     left: 15%; /* Alinha à esquerda */
     transform: translateY(-50%); /* Centraliza verticalmente */
-    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    font-family: "Arial", sans-serif; 
     color: white;
 }
 
@@ -73,7 +73,7 @@ body {
     border-radius: 50%;
     display: block;
     margin-left: 65%;
-    margin-right: 0; /* Defina a margem direita como 0 para alinhar à direita */
+    margin-right: 0; 
     width: 374px;
     margin-top: 5%;
 }
@@ -81,10 +81,10 @@ body {
 #subtitulo_sobre {
     position: absolute;
     top: 20%;
-    left: 20%; /* Ou o valor que desejar para ajustar a posição horizontal */
+    left: 20%;
     transform: translateY(-50%);
     font-size: 24px; /* Tamanho da fonte do título */
-    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    font-family: "Arial", sans-serif;
     color: white;
 }
 
@@ -97,14 +97,14 @@ body {
     width: 50%;
     transform: translateY(-50%);
     font-size: 16px; /* Tamanho da fonte do parágrafo */
-    line-height: 1.5; /* Espaçamento entre linhas, ajuste conforme necessário */
-    font-family: "Arial", sans-serif; /* Substitua "Arial" pela fonte desejada */
+    line-height: 1.5; /* Espaçamento entre linhas*/
+    font-family: "Arial", sans-serif;
     color: white;
     text-align: justify; /* Texto justificado */
 }
 
 #img_sobre_mim {
-    width: 40%; /* Ajuste a largura conforme necessário */
+    width: 40%; 
     border-radius: 50%;
     display: block;
     margin-left: 60%;
@@ -130,43 +130,11 @@ body {
     width: 50%;
     padding: 15px;
     font-size: 16px; /* Tamanho da fonte do parágrafo */
-    line-height: 1.5; /* Espaçamento entre linhas, ajuste conforme necessário */
+    line-height: 1.5; /* Espaçamento entre linhas */
     font-family: "Arial", sans-serif; 
     color: white;
     text-align: justify; /* Texto justificado */
 }
-
-/* projetos */
-#projetos {
-
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 5); /* Sombra */
-    padding: 20px; /* Espaçamento interno para afastar o conteúdo da borda */
-    margin-left: 60%;
-    margin-right: 5%;
-    margin-top: 5%;
-}
-
-
-#tituloprojetos {
-    text-align: justify;
-    color: white;
-}
-
-#projetos ul {
-    list-style-type: none;
-    padding: 0; /* Opcional para remover o espaço entre os itens da lista */
-}
-
-
-#projetos a {
-    text-decoration: none;
-    color: white;
-    line-height: 1.5;
-}
-
-
-
 
 /* Estilo para a seção de Contato */
 section {
@@ -237,7 +205,40 @@ input[type="submit"]:hover {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 71%, rgba(252,176,69,1) 100%); /*Definirá o fundo da página como um gradiente */
 }
 
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
 
+/* botão principal */
+.dropbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
+/*conteúdo do dropdown (inicialmente oculto) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
+/*itens do dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
+/* Mostrar o dropdown quando o mouse passa sobre o botão */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
